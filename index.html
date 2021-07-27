@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker | Deepak Prasad</title>
+    <link rel="icon" href="images/covid.png">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/indiaStyles.css">
+    
+</head>
+<body>
+    <div class="main-content">
+        <header>
+            <h1>Covid-19 India</h1>
+            <a href="./index.html">District Wise</a>
+            <a><span onclick="state()">State Wise</span></a>
+            <a><span onclick="india()">INDIA</span></a>
+        </header>
+
+        
+
+        <div id="districtInput">
+            <div id="statesDropdown">
+                <select name="states" id="states">
+
+                </select>
+            </div>
+            <br>
+            <div id="districtsDropdown">
+
+            </div>
+            <!-- <div id="error"></div> -->
+        </div>
+        
+        <p id="loading">Loading...</p>
+
+        <section>
+            <div id="message">
+                <!-- <div id="datediv">
+                    <div id="date"><b>Date: </b>
+                    <span id="dateSpan"></span>
+                </div> -->
+                <div id="totalconfirmed">
+                    <h3>Total Confirmed</h3>
+                    <p id="message-1" ></p>
+                </div>
+                <div id="dailyconfirmed">
+                    <h3>Daily Confirmed</h3>
+                    <p id="message-4" ></p>
+                </div>
+                <div id="totalrecovered">
+                    <h3>Total Recovered</h3>
+                    <p id="message-3" ></p>
+                </div>
+                <div id="dailyrecovered">
+                    <h3>Daily Recovered</h3>
+                    <p id="message-6" ></p>
+                </div>
+                <div id="totaldeceased">
+                    <h3>Total Deaths</h3>
+                    <p id="message-2" ></p>
+                </div>
+                <div id="dailydeceased">
+                    <h3>Daily Deaths</h3>
+                    <p id="message-5" ></p>
+                </div>
+        </section>
+    </div>
+
+
+    <footer><div>Made by Deepak Prasad</div></footer>
+
+    <script src="./js/district.js"></script>
+</body>
+</html>

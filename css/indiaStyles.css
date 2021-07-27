@@ -1,0 +1,115 @@
+body {
+    background-color: #161625;
+    color: white;
+    font-family: arial;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #666666;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+h1 {
+    /* font-size: 48px; */
+    margin-bottom: 16px;
+    /* text-align: center; */
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    cursor: pointer;
+    background-color: #888888;
+    color: white;
+}
+
+
+footer div {
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+
+#error{
+    margin-top: 20px;
+}
+
+section{
+    display: none;
+    margin-top: 10px;
+}
+
+#locationMessage{
+    margin-bottom: 25px;
+}
+
+#message{
+    display: flex;
+    /* display: none; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+#message div{
+    margin-top: 30px;
+    height: 70px;
+    border-radius: 10px;
+    min-width: 150px;
+    /* flex-grow: 1; */
+}
+
+#message div h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+/* #datediv{
+    display: none;
+} */
+select {
+    min-width: 200px;
+}
+#message div p{
+    margin: 5px;
+}
+
+#message div:nth-child(1), #message div:nth-child(2){
+    background-color: indianred;
+}
+
+#message div:nth-child(3), #message div:nth-child(4){
+    background-color: green;
+}
+
+#message div:nth-child(5), #message div:nth-child(6){
+    background-color: red;
+}
+
+#statesDropdown{
+    display: none;
+    /* visibility: hidden; */
+}
